@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BR — Estados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="noise"></div>
+  <div class="scanlines"></div>
+
+  <header>
+    <div class="header-meta">
+      <span class="coord">LAT -15.7°</span>
+      <span class="divider">/</span>
+      <span class="coord">LON -47.9°</span>
+    </div>
+    <h1>
+      <span class="h1-top">República</span>
+      <span class="h1-main">BRASIL</span>
+      <span class="h1-sub">26 estados · 1 Distrito Federal · 8.515.767 km²</span>
+    </h1>
+    <div class="header-index">
+      <span>ÍNDICE DE ESTADOS</span>
+      <span class="blink">▮</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="grid" id="grid">
+
+      <article class="card" data-num="01" data-regiao="SUDESTE">
+        <div class="card-top">
+          <span class="num">01</span>
+          <span class="sigla">SP</span>
+        </div>
+        <h2>SÃO PAULO</h2>
+        <div class="linha"></div>
+        <p class="desc">Maior metrópole da América do Sul. Motor econômico do Brasil, produzindo cerca de 32% do PIB nacional.</p>
+        <ul class="dados">
+          <li><span>POP.</span><strong>46.024.937</strong></li>
+          <li><span>ÁREA</span><strong>248.219 km²</strong></li>
+          <li><span>CAP.</span><strong>São Paulo</strong></li>
+        </ul>
+        <div class="tag-regiao">SUDESTE</div>
+      </article>
+
+      <article class="card" data-num="02" data-regiao="SUDESTE">
+        <div class="card-top">
+          <span class="num">02</span>
+          <span class="sigla">RJ</span>
+        </div>
+        <h2>RIO DE JANEIRO</h2>
+        <div class="linha"></div>
+        <p class="desc">Cidade Maravilhosa. Patrimônio Natural da Humanidade pela UNESCO desde 2012. Berço do samba e do Carnaval.</p>
+        <ul class="dados">
+          <li><span>POP.</span><strong>17.463.349</strong></li>
+          <li><span>ÁREA</span><strong>43.750 km²</strong></li>
+          <li><span>CAP.</span><strong>Rio de Janeiro</strong></li>
+        </ul>
+        <div class="tag-regiao">SUDESTE</div>
+      </article>
+
+      <article class="card" data-num="03" data-regiao="NORDESTE">
+        <div class="card-top">
+          <span class="num">03</span>
+          <span class="sigla">BA</span>
+        </div>
+        <h2>BAHIA</h2>
+        <div class="linha"></div>
+        <p class="desc">Coração afro-brasileiro. Salvador foi a primeira capital do Brasil colonial. 932 km de litoral no Atlântico.</p>
+        <ul class="dados">
+          <li><span>POP.</span><strong>14.873.064</strong></li>
+          <li><span>ÁREA</span><strong>564.692 km²</strong></li>
+          <li><span>CAP.</span><strong>Salvador</strong></li>
+        </ul>
+        <div class="tag-regiao">NORDESTE</div>
+      </article>
+
+      <article class="card" data-num="04" data-regiao="NORTE">
+        <div class="card-top">
+          <span class="num">04</span>
+          <span class="sigla">AM</span>
+        </div>
+        <h2>AMAZONAS</h2>
+        <div class="linha"></div>
+        <p class="desc">Maior estado brasileiro. Abriga 98% de floresta nativa e o maior rio do mundo em volume d'água.</p>
+        <ul class="dados">
+          <li><span>POP.</span><strong>4.269.995</strong></li>
+          <li><span>ÁREA</span><strong>1.570.745 km²</strong></li>
+          <li><span>CAP.</span><strong>Manaus</strong></li>
+        </ul>
+        <div class="tag-regiao">NORTE</div>
+      </article>
+
+      <article class="card" data-num="05" data-regiao="SUL">
+        <div class="card-top">
+          <span class="num">05</span>
+          <span class="sigla">RS</span>
+        </div>
+        <h2>RIO GRANDE DO SUL</h2>
+        <div class="linha"></div>
+        <p class="desc">Terra do chimarrão e do churrasco. Forte herança europeia nos pampas gaúchos. Principal região vinícola do país.</p>
+        <ul class="dados">
+          <li><span>POP.</span><strong>11.422.973</strong></li>
+          <li><span>ÁREA</span><strong>281.707 km²</strong></li>
+          <li><span>CAP.</span><strong>Porto Alegre</strong></li>
+        </ul>
+        <div class="tag-regiao">SUL</div>
+      </article>
+
+      <article class="card" data-num="06" data-regiao="NORDESTE">
+        <div class="card-top">
+          <span class="num">06</span>
+          <span class="sigla">PE</span>
+        </div>
+        <h2>PERNAMBUCO</h2>
+        <div class="linha"></div>
+        <p class="desc">Berço do frevo e do maracatu. Olinda é Patrimônio da Humanidade. Porto de Galinhas é referência em turismo.</p>
+        <ul class="dados">
+          <li><span>POP.</span><strong>9.674.793</strong></li>
+          <li><span>ÁREA</span><strong>98.149 km²</strong></li>
+          <li><span>CAP.</span><strong>Recife</strong></li>
+        </ul>
+        <div class="tag-regiao">NORDESTE</div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer>
+    <span>PORTFOLIO · GRID RESPONSIVO</span>
+    <span class="footer-center">HTML + CSS + JS</span>
+    <span id="clock"></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
